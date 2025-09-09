@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilet</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            background-color: black;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #profile-card {
+             width: 300px; 
+             padding: 20px;
+             text-align: center;
+        }
+        #part1 img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            object-fit: cover;
+        }
+        h1{
+            color: white;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.942)
+        }
+       .location{ 
+        color: green;
+        }
+       .social-links button{
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 5px 0;
+        border-radius: 5px;
+        width: 250px;
+        display: block;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+       }
+       .social-links button:hover{
+        background-color: #555;
+       }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="profile-card">
+        <div id="part1">
+            <img src="MALTI.jpeg" alt="Malti Pathak Profile Picture">
+        </div>
+        <h1>Malti Pathak</h1>
+        <span class="location">Pune, Maharashtra</span>
+        <p>Front-end Developer and Learner</p>
+        <div class="social-links">
+            <button>GitHub</button>
+            <button>LinkedIn</button>
+            <button>Twitter</button>
+            <button>Instagram</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
